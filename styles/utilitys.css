@@ -1,4 +1,8 @@
 /* utilitys */
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
@@ -11,11 +15,21 @@
   padding-inline: 120px;
 }
 
+/* font-size */
+
 h1 {
   font: var(--text-lg);
 }
 
-h3 {
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.text-md {
   font: var(--text-md);
 }
 
@@ -25,6 +39,14 @@ span {
 
 p {
   font: var(--text-sm);
+}
+
+/* font-size  */
+
+/* color-base */
+
+.gray-600 {
+  color: var(--gray-600);
 }
 
 .gray-400 {
@@ -39,7 +61,11 @@ p {
   color: var(--gray-200);
 }
 
-/* colors */
+.gray-100 {
+  color: var(--gray-100);
+}
+
+/* colors-main */
 
 .red {
   color: var(--red);
