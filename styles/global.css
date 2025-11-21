@@ -39,3 +39,7 @@
   --text-md: 400 16px/1.4 var(--font-family-Maven-Pro);
   --text-sm: 400 14px/1.4 var(--font-family-Maven-Pro);
 }
+
+.container {
+  padding-inline: 120px;
+}
